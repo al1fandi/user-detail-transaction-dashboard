@@ -38,6 +38,7 @@ Data yang digunakan: https://drive.google.com/file/d/1RwsBQ1FriNfz6qiq0V5nD7gF7j
 
 **Answer**
 **[Link Query](https://github.com/al1fandi/Digital_User_Churn_Dashboard/blob/00b8f938fdb1c9e9456b9979c7e11b9c4258a752/Query_Soal_3.sql)**
+**[Link Table](https://drive.google.com/file/d/1xWsK0SlRIPDsd0ugNC2_7HhY2RiDlqqE/view?usp=sharing)**
 
 ### Soal 4
 Dari hasil tabel yang dibuat pada soal nomor 3, simpanlah hasilnya dalam bentuk CSV. Dengan menggunakan Looker Studio, buatlah visualisasi yang menampilkan data penjualan tersebut. Visualisasi tersebut harus berisi minimal :
