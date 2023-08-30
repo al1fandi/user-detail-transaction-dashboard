@@ -1,15 +1,15 @@
 # Digital User Churn Dashboard
-Bank Muamalat Business Intelligence Analyst Project Based Internship Program - Final Task
+Bank Muamalat Business Intelligence Analyst Project-Based Internship Program - Final Task
 Business Intelligence Analyst VIX
 Alifandi Rahmatul Ilmi
 
 ## Challenge
 ### Soal 1
 Tentukan masing-masing primary key pada 4 dataset penjualan
-1. Primary key tabel Customer :
-2. Primary key tabel Products :
-3. Primary key tabel Orders :
-4. Primary key tabel ProductCategory :
+1. Primary key tabel Customer : CustomerID
+2. Primary key tabel Products : ProdNumber
+3. Primary key tabel Orders : OrderID
+4. Primary key tabel ProductCategory : CategoryID
 
 Data yang digunakan: https://drive.google.com/file/d/1RwsBQ1FriNfz6qiq0V5nD7gF7jO81To3/view?usp=sharing
 
