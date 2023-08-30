@@ -15,7 +15,10 @@ Data yang digunakan: https://drive.google.com/file/d/1RwsBQ1FriNfz6qiq0V5nD7gF7j
 
 ### Soal 2
 Tentukan relationship dari ke-4 table tersebut
-
+* Table Customers -- Orders = One to Many
+* Table Products -- Orders = One to Many
+* Table ProductCategory - Products = One to Many
+  
 Data yang digunakan: https://drive.google.com/file/d/1RwsBQ1FriNfz6qiq0V5nD7gF7jO81To3/view?usp=sharing
 
 ### Soal 3
