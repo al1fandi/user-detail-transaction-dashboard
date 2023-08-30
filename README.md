@@ -11,12 +11,14 @@ Tentukan masing-masing primary key pada 4 dataset penjualan
 2. Primary key tabel Products :
 3. Primary key tabel Orders :
 4. Primary key tabel ProductCategory :
+
 B. Data yang digunakan
 https://drive.google.com/file/d/1RwsBQ1FriNfz6qiq0V5nD7gF7jO81To3/view?usp=sharing
 
 ### Soal 2
 A. Tugas
 Tentukan relationship dari ke-4 table tersebut
+
 B. Data yang digunakan
 https://drive.google.com/file/d/1RwsBQ1FriNfz6qiq0V5nD7gF7jO81To3/view?usp=sharing
 
@@ -32,6 +34,7 @@ Sebagai BI Analyst PT Sejahtera Bersama, kita akan membuat sebuah table master y
 - ProductCategoryName (category_name)
 - TotalSales (total_sales)
 Urutkan data tersebut berdasarkan tanggal transaksi yang paling awal sampai yang paling akhir.
+
 B. Data yang digunakan
 https://drive.google.com/file/d/1RwsBQ1FriNfz6qiq0V5nD7gF7jO81To3/view?usp=sharing
 
@@ -45,11 +48,13 @@ Dari hasil tabel yang dibuat pada soal nomor 3, simpanlah hasilnya dalam bentuk 
 - Total qty berdasarkan kota
 - Top 5 kategori produk yang paling tinggi salesnya
 - Top 5 kategori produk yang paling tinggi qtynya
+  
 B. Data yang digunakan
 https://drive.google.com/file/d/1RwsBQ1FriNfz6qiq0V5nD7gF7jO81To3/view?usp=sharing
 
 ### Soal 5
 A. Tugas
 Sebagai BI analyst PT Sejahtera Bersama, apa yang bisa anda usulkan untuk mempertahankan penjualan ataupun menaikkan penjualan dengan tabel transaksi detail yang sudah ada?
+
 B. Data yang digunakan
 https://drive.google.com/file/d/1RwsBQ1FriNfz6qiq0V5nD7gF7jO81To3/view?usp=sharing
