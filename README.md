@@ -31,6 +31,7 @@ Sebagai BI Analyst PT Sejahtera Bersama, kita akan membuat sebuah table master y
 - ProductPrice (product_price)
 - ProductCategoryName (category_name)
 - TotalSales (total_sales)
+  
 Urutkan data tersebut berdasarkan tanggal transaksi yang paling awal sampai yang paling akhir.
 
 Data yang digunakan: https://drive.google.com/file/d/1RwsBQ1FriNfz6qiq0V5nD7gF7jO81To3/view?usp=sharing
