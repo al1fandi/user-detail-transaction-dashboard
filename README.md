@@ -1,6 +1,6 @@
 # Digital User Churn Dashboard
-Bank Muamalat Business Intelligence Analyst Project-Based Internship Program - Final Task
-Business Intelligence Analyst VIX
+Bank Muamalat Business Intelligence Analyst Project-Based Internship Program - Final Task\n
+Business Intelligence Analyst VIX\n
 Alifandi Rahmatul Ilmi
 
 ## Challenge
