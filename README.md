@@ -55,9 +55,26 @@ Dari hasil tabel yang dibuat pada soal nomor 3, simpanlah hasilnya dalam bentuk 
 Data yang digunakan: https://drive.google.com/file/d/1RwsBQ1FriNfz6qiq0V5nD7gF7jO81To3/view?usp=sharing
 
 **Answer**
+
+**Kesimpulan**
+* Total sales secara keseluruhan adalah 1.75M
+* Kategori produk `Robots` memiliki jumlah sales terbanyak yaitu 743.5k (dengan proporsi 42% dari seluruh sales).
+* Berdasarkan jumlah order, `eBooks` merupakan kategori produk terbanyak dengan total pesanan 3.12k 
+* Terdapat 5 kategori produk dengan jumlah penjualan terbanyak yaitu `Robots`, `Drones`, `Robot Kits`, `Drone Kits`, dan `Training Videos`.
+* Terdapat 5 kategori produk dengan jumlah total order terbanyak yaitu `eBooks`, `Training Videos`, `Drone Kits`, `Blueprints`, dan `Drones`.
+* Washington merupakan kota dengan jumlah penjualan serta total order terbanyak, masing-masing 55k dan 308
 * **[Link Dashboard](https://lookerstudio.google.com/reporting/da9d37dc-9903-487f-9e8f-7cdf03004a25)**
 
 ### Soal 5
 Sebagai BI analyst PT Sejahtera Bersama, apa yang bisa anda usulkan untuk mempertahankan penjualan ataupun menaikkan penjualan dengan tabel transaksi detail yang sudah ada?
 
 Data yang digunakan: https://drive.google.com/file/d/1RwsBQ1FriNfz6qiq0V5nD7gF7jO81To3/view?usp=sharing
+
+**Answer**
+
+**Rekomendasi**
+
+Berdasarkan kesimpulan, terdapat beberapa rekomendasi untuk mempertahankan/menaikan penjualan, sebagai berikut:
+* Penambahan stok. Disarankan untuk melakukan penambahan stok terhadap kategori produk yang memiliki jumlah sales dan total order terbanyak, ini dilakukan untuk mengakomodir banyaknya permintaan customer terhadap produk tersebut.
+* Strategi kampanye pemasaran. Kampanye pemasaran harus dipromosikan secara besar-besaran di beberapa kota dengan jumlah sales dan total order yang tinggi. Hal ini dilakukan untuk mempertahankan jumlah customer dan penjualan pada kota-kota tersebut. 
+* Tambahan. Perlu dilakukan analisis lanjutan terhadap kota dengan penjualan yang sedikit. Hal ini untuk mengetahui, apakah ada permasalahan yang menyebabkan kota tersebut memiliki sedikit customer. 
