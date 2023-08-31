@@ -58,10 +58,10 @@ Data yang digunakan: https://drive.google.com/file/d/1RwsBQ1FriNfz6qiq0V5nD7gF7j
 
 **Kesimpulan**
 * Total sales secara keseluruhan adalah 1.75M
-* Kategori produk `Robots` memiliki jumlah sales terbanyak yaitu 743.5k (dengan proporsi 42% dari seluruh sales).
-* Berdasarkan jumlah order, `eBooks` merupakan kategori produk terbanyak dengan total pesanan 3.12k 
-* Terdapat 5 kategori produk dengan jumlah penjualan terbanyak yaitu `Robots`, `Drones`, `Robot Kits`, `Drone Kits`, dan `Training Videos`.
-* Terdapat 5 kategori produk dengan jumlah total order terbanyak yaitu `eBooks`, `Training Videos`, `Drone Kits`, `Blueprints`, dan `Drones`.
+* Kategori produk Robots memiliki jumlah sales terbanyak yaitu 743.5k (dengan proporsi 42% dari seluruh sales).
+* Berdasarkan jumlah order, eBooks merupakan kategori produk terbanyak dengan total pesanan 3.12k 
+* Terdapat 5 kategori produk dengan jumlah penjualan terbanyak yaitu Robots, Drones, Robot Kits, Drone Kits, dan Training Videos.
+* Terdapat 5 kategori produk dengan jumlah total order terbanyak yaitu eBooks, Training Videos, Drone Kits, Blueprints, dan Drones.
 * Washington merupakan kota dengan jumlah penjualan serta total order terbanyak, masing-masing 55k dan 308
 * **[Link Dashboard](https://lookerstudio.google.com/reporting/da9d37dc-9903-487f-9e8f-7cdf03004a25)**
 
