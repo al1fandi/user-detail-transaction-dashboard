@@ -1,23 +1,25 @@
 # Digital User Churn Dashboard
-Bank Muamalat Business Intelligence Analyst Project-Based Internship Program - Final Task\n
-Business Intelligence Analyst VIX\n
+Bank Muamalat Business Intelligence Analyst Project-Based Internship Program - Final Task 
+
+Business Intelligence Analyst VIX
+
 Alifandi Rahmatul Ilmi
 
 ## Challenge
 ### Soal 1
 Tentukan masing-masing primary key pada 4 dataset penjualan
-1. Primary key tabel Customer : CustomerID
-2. Primary key tabel Products : ProdNumber
-3. Primary key tabel Orders : OrderID
-4. Primary key tabel ProductCategory : CategoryID
+1. Primary key tabel Customer : **CustomerID**
+2. Primary key tabel Products : **ProdNumber**
+3. Primary key tabel Orders : **OrderID**
+4. Primary key tabel ProductCategory : **CategoryID**
 
 Data yang digunakan: https://drive.google.com/file/d/1RwsBQ1FriNfz6qiq0V5nD7gF7jO81To3/view?usp=sharing
 
 ### Soal 2
 Tentukan relationship dari ke-4 table tersebut
-* Table Customers -- Orders = One to Many
-* Table Products -- Orders = One to Many
-* Table ProductCategory -- Products = One to Many
+* Table Customers -- Orders = **One to Many relationship**
+* Table Products -- Orders = **One to Many relationship**
+* Table ProductCategory -- Products = **One to Many relationship**
   
 Data yang digunakan: https://drive.google.com/file/d/1RwsBQ1FriNfz6qiq0V5nD7gF7jO81To3/view?usp=sharing
 
@@ -38,7 +40,7 @@ Data yang digunakan: https://drive.google.com/file/d/1RwsBQ1FriNfz6qiq0V5nD7gF7j
 
 **Answer**
 * **[Link Query](https://github.com/al1fandi/Digital_User_Churn_Dashboard/blob/00b8f938fdb1c9e9456b9979c7e11b9c4258a752/Query_Soal_3.sql)**
-* **[Link Table](https://drive.google.com/file/d/1xWsK0SlRIPDsd0ugNC2_7HhY2RiDlqqE/view?usp=sharing)**
+* **[Link CSV](https://drive.google.com/file/d/1xWsK0SlRIPDsd0ugNC2_7HhY2RiDlqqE/view?usp=sharing)**
 
 ### Soal 4
 Dari hasil tabel yang dibuat pada soal nomor 3, simpanlah hasilnya dalam bentuk CSV. Dengan menggunakan Looker Studio, buatlah visualisasi yang menampilkan data penjualan tersebut. Visualisasi tersebut harus berisi minimal :
@@ -51,6 +53,9 @@ Dari hasil tabel yang dibuat pada soal nomor 3, simpanlah hasilnya dalam bentuk 
 - Top 5 kategori produk yang paling tinggi qtynya
   
 Data yang digunakan: https://drive.google.com/file/d/1RwsBQ1FriNfz6qiq0V5nD7gF7jO81To3/view?usp=sharing
+
+**Answer**
+* **[Link Dashboard](https://lookerstudio.google.com/reporting/da9d37dc-9903-487f-9e8f-7cdf03004a25)**
 
 ### Soal 5
 Sebagai BI analyst PT Sejahtera Bersama, apa yang bisa anda usulkan untuk mempertahankan penjualan ataupun menaikkan penjualan dengan tabel transaksi detail yang sudah ada?
