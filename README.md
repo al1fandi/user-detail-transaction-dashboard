@@ -43,4 +43,17 @@ One-to-many means that one data in a table can be associated with one or more da
 ### Data Analyzing & visualization
 #### Data Visualization
 
+![dashboard-capture](https://github.com/al1fandi/user-detail-transaction-dashboard/blob/main/capture/dashboard-capture.png?raw=true)
 
+**[Link Dashboard](https://lookerstudio.google.com/reporting/b52c344e-a4d7-441c-8879-9b6f9181a8af)**
+
+#### Insights
+- The total sales amount is 1.75 million dollars. The "Robots" product category contributed the most to sales, totaling 743.5k dollars, representing 42% of all sales. Regarding the highest number of orders, "eBooks" was the most popular product category, with 3.12k orders.
+- There were five product categories with the highest sales, which are "Robots," "Drones," "Robot Kits," "Drone Kits," and "Training Videos." On the other hand, the five product categories with the highest total orders are "eBooks," "Training Videos," "Blueprints," "Drone Kits," and "Drones."
+- Washington state generated the highest sales and total orders, with 55k dollars and 308 orders.
+
+#### Suggestions for Sales Improvement
+After reviewing the data, the following recommendations can be made:
+- Increase stock inventory for the product categories with the highest sales and total orders. This will help meet the high demand for these products in the future.
+- Adjust the customer segmentation for marketing campaigns by targeting cities with high sales and total order values.
+- Analyze the data of cities with low sales to identify the reason behind their low sales and total orders. This will help in finding solutions to improve the sales in those cities.
