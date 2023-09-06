@@ -1,80 +1,41 @@
-# Digital User Churn Dashboard
-Bank Muamalat Business Intelligence Analyst Project-Based Internship Program - Final Task 
+# Final Task: User Detail Transaction Dashboard
+Bank Muamalat Business Intelligence Analyst Project-Based Internship Program
 
 Business Intelligence Analyst VIX
 
-Alifandi Rahmatul Ilmi
+Presented by Alifandi Rahmatul Ilmi
 
-## Challenge
-### Soal 1
-Tentukan masing-masing primary key pada 4 dataset penjualan
-1. Primary key tabel Customer : **CustomerID**
-2. Primary key tabel Products : **ProdNumber**
-3. Primary key tabel Orders : **OrderID**
-4. Primary key tabel ProductCategory : **CategoryID**
+## Case Study
+**Process the raw data from end to end with the output in the dashboard version.**
 
-Data yang digunakan: https://drive.google.com/file/d/1RwsBQ1FriNfz6qiq0V5nD7gF7jO81To3/view?usp=sharing
+### Data Gathering
+1. The dataset was downloaded from the Google Drive link and then saved to a local file.
+2. Next, the dataset was uploaded to Google BigQuery for further processing.
+3. The dataset consists of four tables and is ready for further analysis and manipulation.
 
-### Soal 2
-Tentukan relationship dari ke-4 table tersebut
-* Table Customers -- Orders = **One to Many relationship**
-* Table Products -- Orders = **One to Many relationship**
-* Table ProductCategory -- Products = **One to Many relationship**
-  
-Data yang digunakan: https://drive.google.com/file/d/1RwsBQ1FriNfz6qiq0V5nD7gF7jO81To3/view?usp=sharing
+**[Link Dataset](https://drive.google.com/file/d/1RwsBQ1FriNfz6qiq0V5nD7gF7jO81To3/view?usp=sharing)**
 
-### Soal 3
-Sebagai BI Analyst PT Sejahtera Bersama, kita akan membuat sebuah table master yang berisikan informasi :
-- CustomerEmail (cust_email)
-- CustomerCity (cust_city)
-- OrderDate (order_date)
-- OrderQty (order_qty)
-- ProductName (product_name)
-- ProductPrice (product_price)
-- ProductCategoryName (category_name)
-- TotalSales (total_sales)
-  
-Urutkan data tersebut berdasarkan tanggal transaksi yang paling awal sampai yang paling akhir.
+### Data Understanding
+#### Primary Key
+A primary key is a column that uniquely identifies each row of data in a table. It can distinguish one row from another and is often used as a reference for other tables. The primary key value in each row must be unique, and there must be no duplicates. This primary key ensures that the data in the table is organized in a structured and efficient way.
 
-Data yang digunakan: https://drive.google.com/file/d/1RwsBQ1FriNfz6qiq0V5nD7gF7jO81To3/view?usp=sharing
+A. Determine each primary key in the 4 sales tables.
+    1. Primary key table Customer : CustomerID
+    2. Primary key table Products : ProdNumber
+    3. Primary key table Orders : OrderID
+    4. Primary key table ProductCategory : CategoryID
+    
+#### Relationship Table
+1. Table Customer.CustomerID = Orders.CustomerID => One to Many relationship
+2. Table Products.ProdNumber = Orders.ProdNumber => One to Many relationship
+3. Table ProductCategory.CategoryID = Products.Category => One to Many relationship
 
-**Answer**
-* **[Link Query](https://github.com/al1fandi/Digital_User_Churn_Dashboard/blob/00b8f938fdb1c9e9456b9979c7e11b9c4258a752/Query_Soal_3.sql)**
-* **[Link CSV](https://drive.google.com/file/d/1xWsK0SlRIPDsd0ugNC2_7HhY2RiDlqqE/view?usp=sharing)**
+One-to-many means that one data in a table can be associated with one or more data in another. For example, each customer can have many sales transactions.
 
-### Soal 4
-Dari hasil tabel yang dibuat pada soal nomor 3, simpanlah hasilnya dalam bentuk CSV. Dengan menggunakan Looker Studio, buatlah visualisasi yang menampilkan data penjualan tersebut. Visualisasi tersebut harus berisi minimal :
-- Total keseluruhan sales
-- Total keseluruhan sales berdasarkan kategori produk
-- Total keseluruhan qty berdasarkan kategori produk
-- Total sales berdasarkan kota
-- Total qty berdasarkan kota
-- Top 5 kategori produk yang paling tinggi salesnya
-- Top 5 kategori produk yang paling tinggi qtynya
-  
-Data yang digunakan: https://drive.google.com/file/d/1RwsBQ1FriNfz6qiq0V5nD7gF7jO81To3/view?usp=sharing
+### Data Processing
+#### Create Detail Transaction Table
 
-**Answer**
 
-**Kesimpulan**
-* Total sales secara keseluruhan adalah 1.75M
-* Kategori produk Robots memiliki jumlah sales terbanyak yaitu 743.5k (dengan proporsi 42% dari seluruh sales).
-* Berdasarkan jumlah order, eBooks merupakan kategori produk terbanyak dengan total pesanan 3.12k 
-* Terdapat 5 kategori produk dengan jumlah penjualan terbanyak yaitu Robots, Drones, Robot Kits, Drone Kits, dan Training Videos.
-* Terdapat 5 kategori produk dengan jumlah total order terbanyak yaitu eBooks, Training Videos, Drone Kits, Blueprints, dan Drones.
-* Washington merupakan kota dengan jumlah penjualan serta total order terbanyak, masing-masing 55k dan 308
-* **[Link Dashboard](https://lookerstudio.google.com/reporting/da9d37dc-9903-487f-9e8f-7cdf03004a25)**
 
-### Soal 5
-Sebagai BI analyst PT Sejahtera Bersama, apa yang bisa anda usulkan untuk mempertahankan penjualan ataupun menaikkan penjualan dengan tabel transaksi detail yang sudah ada?
 
-Data yang digunakan: https://drive.google.com/file/d/1RwsBQ1FriNfz6qiq0V5nD7gF7jO81To3/view?usp=sharing
-
-**Answer**
-
-**Rekomendasi**
-
-Berdasarkan kesimpulan, terdapat beberapa rekomendasi untuk mempertahankan/menaikan penjualan, sebagai berikut:
-* Penambahan stok. Disarankan untuk melakukan penambahan stok terhadap kategori produk yang memiliki jumlah sales dan total order terbanyak, ini dilakukan untuk mengakomodir banyaknya permintaan customer terhadap produk tersebut.
-* Strategi kampanye pemasaran. Kampanye pemasaran harus dipromosikan secara besar-besaran di beberapa kota dengan jumlah sales dan total order yang tinggi. Hal ini dilakukan untuk mempertahankan jumlah customer dan penjualan pada kota-kota tersebut. 
-* Tambahan. Perlu dilakukan analisis lanjutan terhadap kota dengan penjualan yang sedikit. Hal ini untuk mengetahui, apakah ada permasalahan yang menyebabkan kota tersebut memiliki sedikit customer. 
+**[Link Query](https://console.cloud.google.com/bigquery?sq=1052968422182:961a30948d464c92841075f20bcd27bf)** 
