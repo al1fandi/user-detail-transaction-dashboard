@@ -36,6 +36,11 @@ One-to-many means that one data in a table can be associated with one or more da
 #### Create Detail Transaction Table
 
 ![table-capture](https://github.com/al1fandi/user-detail-transaction-dashboard/blob/main/capture/table-capture.png?raw=true) 
-![query-capture]()
+![query-capture](https://github.com/al1fandi/user-detail-transaction-dashboard/blob/main/capture/query-capture.png?raw=true)
 
 **[Link Query](https://console.cloud.google.com/bigquery?sq=1052968422182:961a30948d464c92841075f20bcd27bf)** 
+
+### Data Analyzing & visualization
+#### Data Visualization
+
+
